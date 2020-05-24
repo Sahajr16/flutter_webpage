@@ -9,16 +9,16 @@ class LandingPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Text(
-              "Website \nDevelopers",
+              "Corona Tech",
               style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 40.0,
-                  color: Colors.white),
+                  color: Colors.black),
             ),
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 20.0),
               child: Text(
-                "We have taken each and every project handed over to us as a challenge, which has helped us achieve a high project success rate.",
+                "Coronaकवच is a mobile application developed by the Students of Delhi Technological Univeristy to help contain Covid-19 using technology.\n\nWe don't intent to provide 100% correct information, since we update our servers from a crowdsourced community(updated gradually), helping us in updating our heat-maps. We are not predicting weather one is safe or not but,\nwe intend to track the community spread of any particular virus or disease.\nMainly  we provide a robust heatmap containing the Covid-19 hotspots(Designated by the governments of various states) so that while stepping out people can avoid such places.",
                 style: TextStyle(fontSize: 16.0, color: Colors.white),
               ),
             ),
@@ -31,7 +31,7 @@ class LandingPage extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(
                     vertical: 20.0, horizontal: 40.0),
                 child: Text(
-                  "Our Packages",
+                  "Download our App",
                   style: TextStyle(color: Colors.red),
                 ),
               ),
@@ -42,7 +42,7 @@ class LandingPage extends StatelessWidget {
       Padding(
         padding: const EdgeInsets.symmetric(vertical: 20.0),
         child: Image.asset(
-          "assets/images/lp_image.png",
+          "assets/images/splash1.png",
           width: width,
         ),
       )
@@ -67,3 +67,4 @@ class LandingPage extends StatelessWidget {
     );
   }
 }
+
