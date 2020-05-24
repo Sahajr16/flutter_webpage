@@ -118,7 +118,7 @@ class MobileNavbar extends StatelessWidget {
       child: Container(
         child: Column(children: <Widget>[
           MaterialButton(
-            color: Colors.deepOrange,
+            color: Color.fromRGBO(25,25,112,1.0),
             shape: BeveledRectangleBorder(
                 borderRadius: BorderRadius.all(Radius.circular(5.0))),
             onPressed: () {},
@@ -126,7 +126,7 @@ class MobileNavbar extends StatelessWidget {
               "Corona कवच",
               style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: Colors.black,
+                  color: Colors.white,
                   fontSize: 40),
             ),
           ),

@@ -13,7 +13,8 @@ class LandingPage extends StatelessWidget {
               style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 40.0,
-                  color: Colors.black),
+                  color: Colors.black,
+              ),
             ),
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 20.0),

@@ -46,6 +46,18 @@ class DesktopSocialInfo extends StatelessWidget {
           launch('https://www.instagram.com/corona19tech/');
         },
       ),
+      MaterialButton(
+        color: CupertinoColors.darkBackgroundGray,
+        shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.all(Radius.circular(20.0))),
+        onPressed: () {
+          launch('https://docs.google.com/forms/d/e/1FAIpQLSdHE8kW6TqbtpN0791Y6o3sEde_mYIw_bb6U14zxlD2dd_DTQ/viewform?usp=sf_link');
+        },
+        child: Text(
+          "Feedback",
+          style: TextStyle(color: Colors.white),
+        ),
+      ),
     ];
   }
 
@@ -111,6 +123,18 @@ class MobileSocialInfo extends StatelessWidget {
         onPressed: (){
           launch('https://www.instagram.com/corona19tech/');
         },
+      ),
+      MaterialButton(
+        color: CupertinoColors.darkBackgroundGray,
+        shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.all(Radius.circular(20.0))),
+        onPressed: () {
+          launch('https://docs.google.com/forms/d/e/1FAIpQLSdHE8kW6TqbtpN0791Y6o3sEde_mYIw_bb6U14zxlD2dd_DTQ/viewform?usp=sf_link');
+        },
+        child: Text(
+          "Feedback",
+          style: TextStyle(color: Colors.white),
+        ),
       ),
     ];
   }
