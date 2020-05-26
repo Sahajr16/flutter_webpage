@@ -22,7 +22,7 @@ class FutureTab extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(right: 50, left: 40, top: 50),
               child: Text(
-                "In future, we plan to incorporate various NGO's in our, app due to the recent rise of Domestic violence cases in India during lockdown.\nSince, we saw a rise in the number of cases of domestic violence abuse during lock down in the news.\nProblems:\n1.)Victims are unable to call due the presence of the abuser around.\n2.)Most of the helpines are unable to reach and help gets delayed.\n\nSolutions\n1.) Collect infornation about the domestic abuse in a form.\n2.) Tie up with an NGO to provide them with the information.\n3.) Rapid help provided to the victim with reduced hurdles like calling or number not working issue.",
+                "In future, we plan to collaborate with various NGOs due to the recent rise of Domestic violence cases in India during lockdown.\nSince, we saw a rise in the number of cases of domestic violence abuse during lock down in the news. We thought of a plan to tackle this issue with our app.\n\nProblems:\n\n1.)Victims are unable to call due the presence of the abuser around them.\n2.)Most of the help-lines are unable to reach which results in, help geting delayed.\n\nSolutions:\n\n1.) Collect infornation about the domestic abuse in a form.\n2.) Tie up with an NGO to provide them with the information.\n3.) Provide rapid help to the victim with reduced hurdles like calling or number not working issue.",
                 style: TextStyle(fontSize: 16.0, color: Colors.white),
               ),
             ),

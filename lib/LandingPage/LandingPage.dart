@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class LandingPage extends StatelessWidget {
   List<Widget> pageChildren(double width) {
@@ -19,7 +20,7 @@ class LandingPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 20.0),
               child: Text(
-                "Coronaकवच is a mobile application developed by the Students of Delhi Technological Univeristy to help contain Covid-19 using technology.\n\nWe don't intent to provide 100% correct information, since we update our servers from a crowdsourced community(updated gradually), helping us in updating our heat-maps. We are not predicting weather one is safe or not but,\nwe intend to track the community spread of any particular virus or disease.\nMainly  we provide a robust heatmap containing the Covid-19 hotspots(Designated by the governments of various states) so that while stepping out people can avoid such places.",
+                "Coronaकवच is a mobile application developed by the Students of Delhi Technological University to help in containing Covid-19 using technology.\n\nWe can't guarantee 100% correct information, as we update our servers from a crowdsourced community(updated gradually) which helps us in updating our heat-maps. We are not predicting whether one is safe or not but,\nwe intend to track the community spread of any particular virus or disease.\nMainly  we provide a robust heatmap containing the Covid-19 hotspots(Designated by the governments of various states), so that while stepping out people can avoid such places.",
                 style: TextStyle(fontSize: 16.0, color: Colors.white),
               ),
             ),
@@ -27,7 +28,9 @@ class LandingPage extends StatelessWidget {
               color: Colors.white,
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(Radius.circular(20.0))),
-              onPressed: () {},
+              onPressed: () {
+                launch('https://CoronaTechIndia.github.io/coronaKavach.apk');
+              },
               child: Padding(
                 padding: const EdgeInsets.symmetric(
                     vertical: 20.0, horizontal: 40.0),

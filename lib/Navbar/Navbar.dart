@@ -94,7 +94,8 @@ class DesktopNavbar extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.all(Radius.circular(20.0))),
                   onPressed: () {
-                    
+                    launch('https://CoronaTechIndia.github.io/coronaKavach.apk');
+
                   },
                   child: Text(
                     "Download our app",
@@ -114,7 +115,7 @@ class MobileNavbar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 40),
+      padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 10),
       child: Container(
         child: Column(children: <Widget>[
           MaterialButton(
@@ -131,48 +132,54 @@ class MobileNavbar extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.all(12.0),
+            padding: const EdgeInsets.all(5.0),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                MaterialButton(
-                  color: Colors.green,
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.all(Radius.circular(20.0))),
-                  onPressed: () {
+                Flexible(
+                  child: MaterialButton(
+                    color: Colors.green,
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.all(Radius.circular(20.0))),
+                    onPressed: () {
 
-                  },
-                  child: Text(
-                    "Home",
-                    style: TextStyle(color: Colors.white),
+                    },
+                    child: Text(
+                      "Home",
+                      style: TextStyle(color: Colors.white),
+                    ),
                   ),
                 ),
                 SizedBox(
                   width: 10,
                 ),
-                MaterialButton(
-                  color: Colors.yellow,
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.all(Radius.circular(20.0))),
-                  onPressed: () {},
-                  child: Text(
-                    "About Us",
-                    style: TextStyle(color: Colors.black),
+                Flexible(
+                  child: MaterialButton(
+                    color: Colors.yellow,
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.all(Radius.circular(20.0))),
+                    onPressed: () {},
+                    child: Text(
+                      "About Us",
+                      style: TextStyle(color: Colors.black),
+                    ),
                   ),
                 ),
                 SizedBox(
                   width: 10,
                 ),
-                MaterialButton(
-                  color: Colors.pink,
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.all(Radius.circular(20.0))),
-                  onPressed: () {
-                    launch('https://gofile.io/d/YLVGps');
-                  },
-                  child: Text(
-                    "Future",
-                    style: TextStyle(color: Colors.white),
+                Flexible(
+                  child: MaterialButton(
+                    color: Colors.pink,
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.all(Radius.circular(20.0))),
+                    onPressed: () {
+                      launch('https://coronatechindia.github.io/facts/album9.jpg');
+                    },
+                    child: Text(
+                      "Future",
+                      style: TextStyle(color: Colors.white),
+                    ),
                   ),
                 ),
               ],
