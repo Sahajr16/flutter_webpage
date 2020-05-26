@@ -140,7 +140,7 @@ class MobileSocialInfo extends StatelessWidget {
   }
 
   Widget copyRightText() => Text(
-    "Corona Tech ©️2020",
+    "Corona Tech ©️  2020",
     textAlign: TextAlign.center,
     style: TextStyle(
       color: Colors.grey,

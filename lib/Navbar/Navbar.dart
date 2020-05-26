@@ -94,7 +94,7 @@ class DesktopNavbar extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.all(Radius.circular(20.0))),
                   onPressed: () {
-                    launch('https://gofile.io/d/YLVGps');
+                    
                   },
                   child: Text(
                     "Download our app",
@@ -139,7 +139,9 @@ class MobileNavbar extends StatelessWidget {
                   color: Colors.green,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.all(Radius.circular(20.0))),
-                  onPressed: () {},
+                  onPressed: () {
+
+                  },
                   child: Text(
                     "Home",
                     style: TextStyle(color: Colors.white),
