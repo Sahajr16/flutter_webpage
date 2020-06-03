@@ -174,7 +174,6 @@ class MobileNavbar extends StatelessWidget {
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.all(Radius.circular(20.0))),
                     onPressed: () {
-                      launch('https://coronatechindia.github.io/facts/album9.jpg');
                     },
                     child: Text(
                       "Future",

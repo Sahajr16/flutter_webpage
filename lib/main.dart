@@ -2,9 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_webpage/LandingPage/Aboutus.dart';
 import 'package:flutter_webpage/LandingPage/Future.dart';
 import 'package:flutter_webpage/LandingPage/LandingPage.dart';
+import 'package:flutter_webpage/LandingPage/Usage.dart';
 import 'package:flutter_webpage/Navbar/Navbar.dart';
 import 'package:flutter_webpage/Navbar/SocialInfo.dart';
-import 'package:flutter_webpage/LandingPage/Aboutus.dart';
+import 'package:flutter_webpage/LandingPage/Usage.dart';
+
 
 void main() => runApp(MyApp());
 
@@ -44,6 +46,14 @@ class MyHomePage extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(
                     vertical: 20.0, horizontal: 40.0),
                 child: LandingPage(),
+              ),
+              SocialInfo(),
+              SizedBox(
+                height: 100,
+              ),
+              Usage(),
+              SizedBox(
+                height: 100,
               ),
               SocialInfo(),
               SizedBox(

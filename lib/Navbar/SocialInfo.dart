@@ -109,7 +109,7 @@ class MobileSocialInfo extends StatelessWidget {
       IconButton(
         icon: Icon(FontAwesome5.facebook),
         onPressed: (){
-          launch('https://www.facebook.com/Corona-Tech-102512858143716');
+          launch('https://www.facebook.com/CoronaKavach/');
         },
       ),
       IconButton(
@@ -121,7 +121,7 @@ class MobileSocialInfo extends StatelessWidget {
       IconButton(
         icon: Icon(FontAwesome5.instagram),
         onPressed: (){
-          launch('https://www.instagram.com/corona19tech/');
+          launch('https://www.instagram.com/covid19kavach/');
         },
       ),
       MaterialButton(
